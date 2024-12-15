@@ -1,9 +1,9 @@
 import sys
-from dataLoader import loadData
-from dataExplorer import dataExplorer
-from dataCleaner import dataCleaner
-from dataAnalysis import statisticalAnalysis
-from modelCreator import modelCreation
+from finalProject.dataLoader import loadData
+from finalProject.dataExplorer import dataExplorer
+from finalProject.dataCleaner import dataCleaner
+from finalProject.dataAnalysis import statisticalAnalysis
+from finalProject.modelCreator import modelCreation
 
 dfOriginal = None
 workingData = None
